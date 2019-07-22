@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 // Events.
 bot.on("ready", function() {
-    bot.user.setGame(`Hi, Im New Bot On Discord!`);
+    bot.user.setGame(`Marcus is Daddy!`);
     console.log(`${bot.user.username} is Ready!`);
 });
 
@@ -26,15 +26,16 @@ bot.on("message", function(message) {
         var embedhelpmember = new Discord.RichEmbed()
             .setAuthor("💬 Command List.")
             .addField(" - avatar", "Show your Avatar.")
-            .addField(" - ping", "PING PONG.")
+            .addField(" - ping", "PING PONG."
             .setColor(0x00FFEE)
             .setFooter("Ⓒ 2019 Example Bot.", bot.user.displayAvatarURL);
         var embedhelpadmin = new Discord.RichEmbed()
             .setAuthor("💬 Moderator Commands.")
             .addField(" - prune", "Prune up to `99` Messages.")
             .addField(" - kick", "Kick someone from your Server.")
+            .addField(" - ban", "Ban someone from your Server." )
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Example Bot.", bot.user.displayAvatarURL);
+            .setFooter("Meet & Nut™.", bot.user.displayAvatarURL);
             message.channel.send(embedhelpmember)
         if(message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(embedhelpadmin);
     };
