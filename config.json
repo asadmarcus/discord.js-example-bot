@@ -8,9 +8,9 @@
 
     "joinrole": "ROLE ID HERE",
     "muterole": "563182311621918720",
-    "adminmuterole": "owner, mod, admin, Headadmin,t-mod, Managers",
-    "adminkickrole": "owner, admin, Headadmin, Managers",
-    "adminbanrole": "owner, admin, Headadmin, Managers",
+    "adminmuterole": "owner,",
+    "adminkickrole": "owner",
+    "adminbanrole": "owner",
 
     "mentionfirst": "Please mention the user you want to use this command on.\nFor example: !mute @user#0001.",
     "mentionfirsttitle": "Error",
