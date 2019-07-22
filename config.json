@@ -7,10 +7,10 @@
     "embedlogo":"https://i.ibb.co/vBLTCZ8/meetandnut.jpg",
 
     "joinrole": "ROLE ID HERE",
-    "muterole": "ROLE ID HERE",
-    "adminmuterole": "ROLE NAME HERE",
-    "adminkickrole": "ROLE NAME HERE",
-    "adminbanrole": "ROLE NAME HERE",
+    "muterole": "563182311621918720",
+    "adminmuterole": "owner, mod, admin, Headadmin,t-mod, Managers",
+    "adminkickrole": "owner, admin, Headadmin, Managers",
+    "adminbanrole": "owner, admin, Headadmin, Managers",
 
     "mentionfirst": "Please mention the user you want to use this command on.\nFor example: !mute @user#0001.",
     "mentionfirsttitle": "Error",
