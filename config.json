@@ -8,7 +8,7 @@
 
     "joinrole": "ROLE ID HERE",
     "muterole": "563182311621918720",
-    "adminmuterole": "owner,",
+    "adminmuterole": "owner",
     "adminkickrole": "owner",
     "adminbanrole": "owner",
 
