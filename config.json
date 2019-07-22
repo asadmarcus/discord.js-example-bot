@@ -1,0 +1,31 @@
+{
+    "token": "BOT TOKEN", 
+    "prefix": "-",
+    "botstatus": "BOT STATUS HERE",
+
+    "embedcolor": "#23b45d",
+    "embedlogo":"https://i.ibb.co/vBLTCZ8/meetandnut.jpg",
+
+    "joinrole": "ROLE ID HERE",
+    "muterole": "ROLE ID HERE",
+    "adminmuterole": "ROLE NAME HERE",
+    "adminkickrole": "ROLE NAME HERE",
+    "adminbanrole": "ROLE NAME HERE",
+
+    "mentionfirst": "Please mention the user you want to use this command on.\nFor example: !mute @user#0001.",
+    "mentionfirsttitle": "Error",
+
+    "mutesuccesfully": "User has been succesfully muted! ",
+    "mutenorights": "You do not have the rights to use this command!",
+    "unmutesuccesfully": "User has been succesfully unmuted!",
+    "unmutenorights": "You do not have the right permissions to unmute this user!",
+
+    "kicksuccesfully": "User has been succesfully kicked!",
+    "kicknorights": "You do not have the rights to use this command!",
+    "unkickable": "You cannot kick this user from the server!",
+
+    "bansuccesfully": "User has been succesfully banned!",
+    "bannorights": "You do not have the rights to use this command!",
+    "unbannable": "You cannot ban this user from the server!"
+}
+
