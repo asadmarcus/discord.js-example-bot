@@ -30,7 +30,7 @@ if (message.content.startsWith(config.prefix + 'help')) {
 
 
     if (message.content.startsWith(config.prefix + 'mute')) {
-        if(!message.member.roles.find("admin", config.adminmuterole))
+        if(!message.member.roles.find("admin,owner,mod", config.adminmuterole))
         return message.channel.send(mutenorights);
         let member = message.mentions.members.first();
         if(!member)
@@ -40,7 +40,7 @@ if (message.content.startsWith(config.prefix + 'help')) {
     }
     
     if (message.content.startsWith(config.prefix + 'unmute')) {
-        if(!message.member.roles.find("admin", config.adminmuterole))
+        if(!message.member.roles.find("admin,owner,mod", config.adminmuterole))
         return message.channel.send(unmutenorights);
         let member = message.mentions.members.first();
         if(!member)
@@ -56,7 +56,7 @@ const kicksuccess = new Discord.RichEmbed().setColor(config.embedcolor).setDescr
 const unkickable = new Discord.RichEmbed().setColor(config.embedcolor).setDescription(config.unkickable);
 
 if (message.content.startsWith(config.prefix + 'kick')) {
-    if(!message.member.roles.find("admin,ISIS LEADER", config.adminkickrole))
+    if(!message.member.roles.find("admin,owner", config.adminkickrole))
     return message.channel.send(kicknorights);
     let member = message.mentions.members.first();
     if(!member)
@@ -73,7 +73,7 @@ const bansuccess = new Discord.RichEmbed().setColor(config.embedcolor).setDescri
 const unbannable = new Discord.RichEmbed().setColor(config.embedcolor).setDescription(config.unbannable);
 
 if (message.content.startsWith(config.prefix + 'ban')) {
-    if(!message.member.roles.find("ISIS LEADER", config.adminbanrole))
+    if(!message.member.roles.find("admin,owner", config.adminbanrole))
     return message.channel.send(bannorights);
     let member = message.mentions.members.first();
     if(!member)
